@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartłomiej Cupiał</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main-content">       
+        <section id="research">
+            <h2>Research</h2>
+            <div id="research-list">
+            </div>
+        </section>
+    </main>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('research.json')
+            .then(response => response.json())
+            .then(researchData => {
+                const researchList = document.getElementById('research-list');
+                researchList.innerHTML = '';
+                researchData.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'research-item';
+                    div.innerHTML = `
+                        <a href="${item.link}" class="text-skin-accent font-medium text-lg underline-offset-4 decoration-dashed focus-visible:no-underline focus-visible:underline-offset-0 inline-block">
+                            <h3 class="font-medium text-lg decoration-dashed hover:underline">${item.title}</h3>
+                        </a>
+                        <p>${item.authors}</p>
+                        <p>${item.venue}</p>
+                    `;
+                    researchList.appendChild(div);
+                });
+            })
+            .catch(error => {
+                document.getElementById('research-list').textContent = 'Failed to load research.';
+            });
+    });
+</script>
+</body>
+</html>

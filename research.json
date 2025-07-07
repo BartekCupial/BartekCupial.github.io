@@ -1,0 +1,20 @@
+[
+  {
+    "title": "BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games",
+    "link": "https://balrogai.com/",
+    "authors": "Davide Paglieri*, Bartłomiej Cupiał*, Samuel Coward, Ulyana Piterbarg, Maciej Wolczyk, Akbir Khan, Eduardo Pignatelli, Łukasz Kuciński, Lerrel Pinto, Rob Fergus, Jakob Nicolaus Foerster, Jack Parker-Holder, Tim Rocktäschel",
+    "venue": "ICLR 2025"
+  },
+  {
+    "title": "Fine-tuning Reinforcement Learning Models is Secretly a Forgetting Mitigation Problem",
+    "link": "https://sites.google.com/view/finetune-rl-without-forgetting",
+    "authors": "Maciej Wołczyk*, Bartłomiej Cupiał*, Mateusz Ostaszewski, Michał Bortkiewicz, Michał Zając, Razvan Pascanu, Łukasz Kuciński, Piotr Miłoś",
+    "venue": "<b>ICML 2024 Spotlight</b>"
+  },
+  {
+    "title": "GAN-based Plugin Model for Video Generation with Applications in Colonoscopy",
+    "link": "https://arxiv.org/abs/2311.03884",
+    "authors": "Łukasz Struski, Tomasz Urbańczyk, Krzysztof Bucki, Bartłomiej Cupiał, Aneta Kaczyńska, Przemysław Spurek, Jacek Tabor",
+    "venue": "PLOS ONE"
+  }
+]
