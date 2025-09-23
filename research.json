@@ -1,5 +1,11 @@
 [
   {
+    "title": "Learning When to Plan: Efficiently Allocating Test-Time Compute for LLM Agents",
+    "link": "https://arxiv.org/abs/2509.03581",
+    "authors": "Davide Paglieri*, Bartłomiej Cupiał*, Jonathan Cook, Ulyana Piterbarg, Jens Tuyls, Edward Grefenstette, Jakob Nicolaus Foerster, Jack Parker-Holder, Tim Rocktäschel",
+    "venue": "TBD"
+  },
+  {
     "title": "BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games",
     "link": "https://balrogai.com/",
     "authors": "Davide Paglieri*, Bartłomiej Cupiał*, Samuel Coward, Ulyana Piterbarg, Maciej Wolczyk, Akbir Khan, Eduardo Pignatelli, Łukasz Kuciński, Lerrel Pinto, Rob Fergus, Jakob Nicolaus Foerster, Jack Parker-Holder, Tim Rocktäschel",
