@@ -1,5 +1,13 @@
 [
     {
+        "content": "I'm presenting <a href=\"https://pub.sakana.ai/sheaf-admm/\" class=\"text-skin-accent\">Sheaf-ADMM</a> at ICML 2026 in Seoul 🇰🇷 and our work on learning from natural language feedback at the <a href=\"https://sites.google.com/view/rlxf-icml2026\" class=\"text-skin-accent\">RLxF workshop</a>!",
+        "date": "July, 2026"
+    },
+    {
+        "content": "Our paper, <a href=\"https://pub.sakana.ai/sheaf-admm/\" class=\"text-skin-accent\">Learning Multi-Agent Coordination via Sheaf-ADMM</a>, was accepted to ICML 2026!",
+        "date": "April, 2026"
+    },
+    {
         "content": "I've started my research internship at Sakana AI and moved to Tokyo! 🐟",
         "date": "September, 2025"
     },

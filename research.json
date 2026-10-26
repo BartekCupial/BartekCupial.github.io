@@ -9,30 +9,35 @@
     "title": "Learning Multi-Agent Coordination via Sheaf-ADMM",
     "link": "https://pub.sakana.ai/sheaf-admm/",
     "authors": "Jeffrey Seely*, Bartłomiej Cupiał*, Llion Jones",
-    "venue": "ICML 2026"
+    "venue": "ICML 2026",
+    "description": "Standard neural architectures are monolithic: a single large network processes inputs as a unified entity. By contrast, much of the intelligence observed in nature is collective, emerging from many locally informed agents that coordinate to solve global tasks. Inspired by this, we developed a framework that replaces a monolithic network with a population of interacting neural agents, allowing complex behavior to emerge through communication and coordination."
   },
   {
     "title": "Learning When to Plan: Efficiently Allocating Test-Time Compute for LLM Agents",
     "link": "https://arxiv.org/abs/2509.03581",
     "authors": "Davide Paglieri*, Bartłomiej Cupiał*, Jonathan Cook, Ulyana Piterbarg, Jens Tuyls, Edward Grefenstette, Jakob Nicolaus Foerster, Jack Parker-Holder, Tim Rocktäschel",
-    "venue": "NeurIPS 2026 Meta-Agents Workshop"
+    "venue": "NeurIPS 2026 Meta-Agents Workshop",
+    "description": "Planning before every action (e.g. ReAct) has become the standard in agentic pipelines, but we show this is far from optimal for multi-step RL. Allocating reasoning resources should involve planning, where models reason, make a plan, and then stick to it, rather than re-planning at every step. We trained 8B models to follow this principle using a two-stage pipeline: SFT on synthetic data to teach how to make and follow plans, and with RL fine-tuning to teach when to do so. Beyond improved performance in long-horizon tasks like Crafter, this method also enabled effective human-agent collaboration, where high-level human plans allowed the agent to mine a diamond."
   },
   {
     "title": "BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games",
     "link": "https://balrogai.com/",
     "authors": "Davide Paglieri*, Bartłomiej Cupiał*, Samuel Coward, Ulyana Piterbarg, Maciej Wolczyk, Akbir Khan, Eduardo Pignatelli, Łukasz Kuciński, Lerrel Pinto, Rob Fergus, Jakob Nicolaus Foerster, Jack Parker-Holder, Tim Rocktäschel",
-    "venue": "ICLR 2025"
+    "venue": "ICLR 2025",
+    "description": "Benchmark designed to evaluate the agentic capabilities of LLMs and VLMs through a diverse set of challenging games, ranging from simple tasks to complex environments like the NetHackLearning Environment. Results reveal that while current models show some success in easier games, they struggle significantly with more challenging tasks, particularly in vision-based decision-making. Work done in collaboration with PhD students from UCL, University of Oxford and NYU"
   },
   {
     "title": "Fine-tuning Reinforcement Learning Models is Secretly a Forgetting Mitigation Problem",
     "link": "https://sites.google.com/view/finetune-rl-without-forgetting",
     "authors": "Maciej Wołczyk*, Bartłomiej Cupiał*, Mateusz Ostaszewski, Michał Bortkiewicz, Michał Zając, Razvan Pascanu, Łukasz Kuciński, Piotr Miłoś",
-    "venue": "<b>ICML 2024 Spotlight</b>"
+    "venue": "<b class=\"research-spotlight\">ICML 2024 Spotlight</b>",
+    "description": "Addressing challenges of fine-tuning pre-trained RL agents, which tends to be unstable. Experiments suggest that knowledge retention helps stabilize and scale the model both in the simple robotic environment Meta World as well as in the very challenging domain of NetHack where I was able to beat previous SOTA by over 2x."
   },
   {
     "title": "GAN-based Plugin Model for Video Generation with Applications in Colonoscopy",
     "link": "https://arxiv.org/abs/2311.03884",
     "authors": "Łukasz Struski, Tomasz Urbańczyk, Krzysztof Bucki, Bartłomiej Cupiał, Aneta Kaczyńska, Przemysław Spurek, Jacek Tabor",
-    "venue": "PLOS ONE"
+    "venue": "PLOS ONE",
+    "description": "Video generation in high resolution is a very expensive task. By pre-training GAN on images and using a plugin model which constructed trajectories in the noise space we were able to generate realistic videos in 1024x1024 resolution."
   }
 ]
