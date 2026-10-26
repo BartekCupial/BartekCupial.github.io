@@ -1,9 +1,21 @@
 [
   {
+    "title": "Up and Down the Abstraction Ladder: Code-Based Skills for Language Agents",
+    "link": "https://bartekcupial.github.io/abstraction-ladder/",
+    "authors": "Bartłomiej Cupiał*, Jens Tuyls*, Maciej Wołczyk, Davide Paglieri, Martin Klissarov, Benjamin Eysenbach, Piotr Miłoś, Karthik R. Narasimhan",
+    "venue": "arXiv preprint, 2026"
+  },
+  {
+    "title": "Learning Multi-Agent Coordination via Sheaf-ADMM",
+    "link": "https://pub.sakana.ai/sheaf-admm/",
+    "authors": "Jeffrey Seely*, Bartłomiej Cupiał*, Llion Jones",
+    "venue": "ICML 2026"
+  },
+  {
     "title": "Learning When to Plan: Efficiently Allocating Test-Time Compute for LLM Agents",
     "link": "https://arxiv.org/abs/2509.03581",
     "authors": "Davide Paglieri*, Bartłomiej Cupiał*, Jonathan Cook, Ulyana Piterbarg, Jens Tuyls, Edward Grefenstette, Jakob Nicolaus Foerster, Jack Parker-Holder, Tim Rocktäschel",
-    "venue": "TBD"
+    "venue": "NeurIPS 2026 Meta-Agents Workshop"
   },
   {
     "title": "BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games",
